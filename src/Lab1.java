@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 
 //this is lab1,add some files
@@ -310,7 +310,7 @@ class Digraph implements labInterface {
         System.out.println(gv.getDotSource());
 
         String type = "gif";
-        File out = new File("/Users/xmh_mac/Documents/JAVA/Lab4/Lab1-1/output." + type);
+        File out = new File("D:\\graphviz2.38\\workspace\\out1." + type);
         gv.writeGraphToFile(gv.getGraph(gv.getDotSource(), type), out);
     }
 
@@ -348,7 +348,7 @@ class Digraph implements labInterface {
         // System.out.println(gv.getDotSource());
 
         String type = "gif";
-        File out = new File("D:/graphviz2.38/workspace/out2." + type);
+        File out = new File("D:\\graphviz2.38\\workspace\\out2." + type);
         //gv.writeGraphToFile(gv.getGraph(gv.getDotSource(), type), out);
     }
 
@@ -445,7 +445,7 @@ public class Lab1 {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner input = new Scanner(System.in);
-        String filename = new String("/Users/xmh_mac/Documents/JAVA/Lab4/Lab1-1/myfile.txt");
+        String filename = new String("D:\\graphviz2.38\\workspace\\test.txt");
         String str1, str2, str3;
         final int sizeOfVector = 100;
         Digraph nl = new Digraph(sizeOfVector);// 定义新的有向图类,同时初始化二维矩阵
