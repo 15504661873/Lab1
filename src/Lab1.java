@@ -2,8 +2,6 @@ package lab1;
 import java.io.*;
 import java.util.*;
 
-//this is lab1,add some files
-
 interface lab
 {
 	 digraph createDirectedGraph(String filename);//生成有向图 done
